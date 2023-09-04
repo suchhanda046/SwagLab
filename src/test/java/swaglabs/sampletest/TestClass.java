@@ -15,9 +15,6 @@ import swaglabs.BaseClass;
 		}
 	@Test
 	public void testMethodPR() {	
-		System.out.print("Test PR....");	
-		System.out.print("Checkout to branch - Test PR done");
-		System.out.print("After PR comment modification...");
-		
+		System.out.print("Test PR for delete comment");
 		}
 }
