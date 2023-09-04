@@ -15,7 +15,6 @@ import swaglabs.BaseClass;
 		}
 	@Test
 	public void testMethodPR() {	
-		System.out.print("Test PR for delete comment");	
-		
+		System.out.print("Test PR for delete comment");
 		}
 }
