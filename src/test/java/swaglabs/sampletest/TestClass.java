@@ -15,6 +15,11 @@ import swaglabs.BaseClass;
 		}
 	@Test
 	public void testMethodPR() {	
+<<<<<<< HEAD
 		System.out.print("Test PR for delete comment");
+=======
+		System.out.print("modify comment for PR conflict");	
+		
+>>>>>>> 9835fe1 (PR conflicts)
 		}
 }
