@@ -23,6 +23,11 @@ import swaglabs.Login;
 	 
 	 @Test
 	 public void filterByPrice() {
+
+		 System.out.println("Login");
+		 login.loginSwagLab();
+		 System.out.println("Login");
+
 	 }
 	
 }
