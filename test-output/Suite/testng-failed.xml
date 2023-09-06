@@ -5,7 +5,9 @@
     <classes>
       <class name="swaglabs.sampletest.TestClass">
         <methods>
-          <include name="testMethod"/>
+          <include name="setUp"/>
+          <include name="filterByprice"/>
+          <include name="testClass"/>
         </methods>
       </class> <!-- swaglabs.sampletest.TestClass -->
     </classes>
