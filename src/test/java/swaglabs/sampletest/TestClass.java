@@ -23,8 +23,7 @@ import swaglabs.Login;
 	 
 	 @Test
 	 public void filterByPrice() {
-		 login.loginSwagLab();
-		 System.out.println("Added comment after login step");
+		 //comment
 	 }
 	
 }
