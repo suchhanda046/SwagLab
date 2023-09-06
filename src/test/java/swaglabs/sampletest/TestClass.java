@@ -1,20 +1,30 @@
 package swaglabs.sampletest;
 
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 import swaglabs.BaseClass;
+import swaglabs.Login;
 
- class TestClass extends BaseClass{
-	@Test
-	public void testMethod() {	
-		driver.get("https://wwww.facebook.com");
-		System.out.print("Test PR");	
-		}
-	@Test
-	public void testMethodPR() {	
-		System.out.print("Test PR for delete comment");
-		}
+ class TestClass {
+	 Login login;
+	 
+	 @BeforeMethod
+	 public void testClass() throws IOException{
+		 login = new Login();
+		 
+	 }
+	 
+	 @Test
+	 public void filterByPrice() {
+		 login.loginSwagLab();
+		 
+	 }
+	
 }

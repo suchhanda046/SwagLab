@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-01T21:08:59 IST" name="Suite" finished-at="2023-09-01T21:09:41 IST" duration-ms="41790">
+  <suite started-at="2023-09-06T11:35:08 IST" name="Suite" finished-at="2023-09-06T11:35:22 IST" duration-ms="13355">
     <groups>
     </groups>
-    <test started-at="2023-09-01T21:08:59 IST" name="Test" finished-at="2023-09-01T21:09:41 IST" duration-ms="41790">
+    <test started-at="2023-09-06T11:35:08 IST" name="Test" finished-at="2023-09-06T11:35:22 IST" duration-ms="13355">
       <class name="swaglabs.sampletest.TestClass">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:swaglabs.sampletest.TestClass@470734c3]" started-at="2023-09-01T21:08:59 IST" name="setUpDriver" finished-at="2023-09-01T21:09:31 IST" duration-ms="31985" status="PASS">
+        <test-method is-config="true" signature="testClass()[pri:0, instance:swaglabs.sampletest.TestClass@4d154ccd]" started-at="2023-09-06T11:35:08 IST" name="testClass" finished-at="2023-09-06T11:35:15 IST" duration-ms="6822" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="testMethod()[pri:0, instance:swaglabs.sampletest.TestClass@470734c3]" started-at="2023-09-01T21:09:31 IST" name="testMethod" finished-at="2023-09-01T21:09:41 IST" duration-ms="9739" status="PASS">
+        </test-method> <!-- testClass -->
+        <test-method signature="filterByPrice()[pri:0, instance:swaglabs.sampletest.TestClass@4d154ccd]" started-at="2023-09-06T11:35:15 IST" name="filterByPrice" finished-at="2023-09-06T11:35:22 IST" duration-ms="6479" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod -->
+        </test-method> <!-- filterByPrice -->
       </class> <!-- swaglabs.sampletest.TestClass -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
