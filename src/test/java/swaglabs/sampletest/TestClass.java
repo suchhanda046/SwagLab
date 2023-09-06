@@ -24,6 +24,7 @@ import swaglabs.Login;
 	 @Test
 	 public void filterByPrice() {
 		 login.loginSwagLab();
+		 System.out.println("Testing different remote branch");
 		 
 	 }
 	
