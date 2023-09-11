@@ -25,8 +25,7 @@ import swaglabs.Login;
 	 public void filterByPrice() {
 
 		 System.out.println("Login");
-		 login.loginSwagLab();
-		 System.out.println("Login");
+		 System.out.println("Login2");
 
 	 }
 	
