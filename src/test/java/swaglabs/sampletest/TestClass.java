@@ -26,8 +26,18 @@ import swaglabs.Login;
 
 		 System.out.println("Login");
 		 login.loginSwagLab();
-		 System.out.println("Login");
+		 
 
 	 }
+	 
+	 @Test
+	 public void test1() {
+
+		 System.out.println("created another test1");
+		 login.loginSwagLab();
+		 System.out.println("Login2");
+
+	 }
+	 
 	
 }
