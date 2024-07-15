@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import swaglabs.BaseClass;
 import swaglabs.Login;
 
-//  class TestClass {
+ class TestClass {
 // 	 Login login;
 	 
 // 	 @BeforeMethod
