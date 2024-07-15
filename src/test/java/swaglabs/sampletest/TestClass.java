@@ -27,6 +27,7 @@ import swaglabs.Login;
 		 System.out.println("Login");
 		 login.loginSwagLab();
 		 System.out.println("Login");
+		 Assert.assertFail("test");
 
 	 }
 	
