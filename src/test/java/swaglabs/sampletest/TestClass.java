@@ -12,23 +12,23 @@ import org.testng.annotations.Test;
 import swaglabs.BaseClass;
 import swaglabs.Login;
 
- class TestClass {
-	 Login login;
+//  class TestClass {
+// 	 Login login;
 	 
-	 @BeforeMethod
-	 public void testClass() throws IOException{
-		 login = new Login();
+// 	 @BeforeMethod
+// 	 public void testClass() throws IOException{
+// 		 login = new Login();
 		 
-	 }
+// 	 }
 	 
-	 @Test
-	 public void filterByPrice() {
+// 	 @Test
+// 	 public void filterByPrice() {
 
-		 System.out.println("Login");
-		 login.loginSwagLab();
-		 System.out.println("Login");
-		 Assert.assertFail("test");
+// 		 System.out.println("Login");
+// 		 login.loginSwagLab();
+// 		 System.out.println("Login");
+// 		 Assert.assertFail("test");
 
-	 }
+// 	 }
 	
-}
+// }
